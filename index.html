@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Feliz cumpleaños, tío Jadiel</title>
+  <meta name="description" content="Un regalo digital de parte de tus sobrinos: torta de chocolate, vino y una carta llena de cariño.">
+  <meta name="theme-color" content="#140c10">
+  <meta property="og:title" content="Feliz cumpleaños, tío Jadiel">
+  <meta property="og:description" content="Tienes un regalo esperándote. Ábrelo.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M18 6h28c0 18-4 26-14 27C22 32 18 24 18 6z' fill='%238a2338'/%3E%3Crect x='30.5' y='33' width='3' height='18' fill='%23c9a35c'/%3E%3Cellipse cx='32' cy='54' rx='12' ry='3' fill='%23c9a35c'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="is-locked">
+
+  <!-- ===== Gradientes y símbolos compartidos ===== -->
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <defs>
+      <linearGradient id="g-gold" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f3dfac"/><stop offset=".45" stop-color="#c9a35c"/><stop offset=".7" stop-color="#e8cf95"/><stop offset="1" stop-color="#9c7637"/>
+      </linearGradient>
+      <linearGradient id="g-cake" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#1c0d07"/><stop offset=".22" stop-color="#4a2718"/><stop offset=".42" stop-color="#5e3420"/><stop offset=".7" stop-color="#3a1d11"/><stop offset="1" stop-color="#160904"/>
+      </linearGradient>
+      <linearGradient id="g-ganache" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#4b2617"/><stop offset=".5" stop-color="#2e150c"/><stop offset="1" stop-color="#1d0c06"/>
+      </linearGradient>
+      <radialGradient id="g-top" cx=".4" cy=".35" r=".8">
+        <stop offset="0" stop-color="#5a3020"/><stop offset=".6" stop-color="#3a1c10"/><stop offset="1" stop-color="#2a130b"/>
+      </radialGradient>
+      <radialGradient id="g-rosette" cx=".35" cy=".3" r=".8">
+        <stop offset="0" stop-color="#7a4a30"/><stop offset=".55" stop-color="#4a2618"/><stop offset="1" stop-color="#2a130b"/>
+      </radialGradient>
+      <radialGradient id="g-berry" cx=".35" cy=".3" r=".75">
+        <stop offset="0" stop-color="#d0566f"/><stop offset=".55" stop-color="#8a2338"/><stop offset="1" stop-color="#4a0f1d"/>
+      </radialGradient>
+      <linearGradient id="g-plate" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#fffaf0"/><stop offset=".5" stop-color="#efe6d4"/><stop offset="1" stop-color="#cfc4b0"/>
+      </linearGradient>
+      <linearGradient id="g-stem" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#b9ad98"/><stop offset=".4" stop-color="#fbf5e8"/><stop offset="1" stop-color="#a59a86"/>
+      </linearGradient>
+      <linearGradient id="g-candle" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#d9d0bd"/><stop offset=".45" stop-color="#fffaf0"/><stop offset="1" stop-color="#c8bea9"/>
+      </linearGradient>
+      <clipPath id="c-candle"><rect x="154" y="80" width="12" height="62" rx="3"/></clipPath>
+      <radialGradient id="g-flame" cx=".5" cy=".75" r=".7">
+        <stop offset="0" stop-color="#fff6d8"/><stop offset=".35" stop-color="#ffd27a"/><stop offset=".75" stop-color="#f08a3c"/><stop offset="1" stop-color="#c2412d" stop-opacity=".6"/>
+      </radialGradient>
+      <radialGradient id="g-glow">
+        <stop offset="0" stop-color="#ffd98a" stop-opacity=".55"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="g-bottle" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#07130d"/><stop offset=".25" stop-color="#1f3a2e"/><stop offset=".38" stop-color="#3b6b54"/><stop offset=".5" stop-color="#1c3529"/><stop offset="1" stop-color="#050d09"/>
+      </linearGradient>
+      <linearGradient id="g-foil" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#3d0d19"/><stop offset=".35" stop-color="#a33a52"/><stop offset=".55" stop-color="#6b1a2c"/><stop offset="1" stop-color="#2a0811"/>
+      </linearGradient>
+      <linearGradient id="g-label" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#d9cfbb"/><stop offset=".4" stop-color="#f8f2e5"/><stop offset="1" stop-color="#c7bca6"/>
+      </linearGradient>
+      <linearGradient id="g-wine" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#3d0a17"/><stop offset=".4" stop-color="#7b1a31"/><stop offset=".6" stop-color="#9c2741"/><stop offset="1" stop-color="#3d0a17"/>
+      </linearGradient>
+      <linearGradient id="g-box" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#9a2b44"/><stop offset=".5" stop-color="#5a1424"/><stop offset="1" stop-color="#330a15"/>
+      </linearGradient>
+      <linearGradient id="g-lid" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#b13a55"/><stop offset="1" stop-color="#6b1a2c"/>
+      </linearGradient>
+      <pattern id="p-damask" width="22" height="22" patternUnits="userSpaceOnUse">
+        <path d="M11 3 L14 11 L11 19 L8 11 Z" fill="#e8cf95" opacity=".14"/>
+        <circle cx="0" cy="0" r="1.4" fill="#e8cf95" opacity=".18"/><circle cx="22" cy="22" r="1.4" fill="#e8cf95" opacity=".18"/>
+      </pattern>
+      <radialGradient id="g-giftglow">
+        <stop offset="0" stop-color="#fff3d1" stop-opacity=".95"/><stop offset=".35" stop-color="#e8cf95" stop-opacity=".45"/><stop offset="1" stop-color="#c9a35c" stop-opacity="0"/>
+      </radialGradient>
+      <filter id="f-soft" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+      <clipPath id="c-bowl"><path d="M22,22 C18,72 26,114 60,120 C94,114 102,72 98,22 Z"/></clipPath>
+
+      <!-- Copa servida (para el brindis) -->
+      <symbol id="sym-glass-full" viewBox="0 0 120 232">
+        <g clip-path="url(#c-bowl)">
+          <rect x="0" y="64" width="120" height="70" fill="url(#g-wine)"/>
+          <ellipse cx="60" cy="64" rx="39" ry="4.5" fill="#b33a55"/>
+        </g>
+        <path d="M22,22 C18,72 26,114 60,120 C94,114 102,72 98,22 Z" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.55)" stroke-width="1.6"/>
+        <ellipse cx="60" cy="22" rx="38" ry="4" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="1.4"/>
+        <path d="M32,34 C29,62 33,88 46,104" stroke="#fff" stroke-width="3" fill="none" opacity=".35" stroke-linecap="round"/>
+        <path d="M58,119 L58,212 L62,212 L62,119" fill="rgba(255,255,255,.35)"/>
+        <ellipse cx="60" cy="214" rx="34" ry="7" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.55)" stroke-width="1.4"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ===== Atmósfera ===== -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__blob ambient__blob--wine"></div>
+    <div class="ambient__blob ambient__blob--forest"></div>
+    <div class="ambient__blob ambient__blob--lead"></div>
+    <div class="ambient__grain"></div>
+  </div>
+  <canvas id="sky" class="sky" aria-hidden="true"></canvas>
+  <canvas id="confetti" class="confetti" aria-hidden="true"></canvas>
+
+  <!-- ===== 1. El regalo ===== -->
+  <section id="intro" class="intro" aria-label="Regalo sin abrir">
+    <div class="intro__rays" aria-hidden="true"></div>
+    <div class="intro__inner">
+      <p class="eyebrow intro__eyebrow">Un regalo para</p>
+      <h1 class="intro__title"><span class="script"><span data-trato>Tío</span> <span data-name>Jadiel</span></span></h1>
+
+      <button class="gift" id="gift" type="button" aria-label="Abrir el regalo">
+        <span class="gift__halo" aria-hidden="true"></span>
+        <svg class="gift__svg" viewBox="0 0 260 270" aria-hidden="true">
+          <ellipse cx="130" cy="256" rx="100" ry="8" fill="#000" opacity=".5" filter="url(#f-soft)"/>
+          <circle class="gift__light" cx="130" cy="118" r="120" fill="url(#g-giftglow)"/>
+          <rect x="40" y="122" width="180" height="130" rx="6" fill="url(#g-box)"/>
+          <rect x="40" y="122" width="180" height="130" rx="6" fill="url(#p-damask)"/>
+          <rect x="168" y="122" width="52" height="130" fill="#000" opacity=".16"/>
+          <rect x="118" y="122" width="24" height="130" fill="url(#g-gold)"/>
+          <path d="M52,240 L92,128 L108,128 L68,240 Z" fill="#fff" opacity=".07"/>
+          <g class="gift__tag">
+            <path d="M184,150 C196,168 192,186 190,196" stroke="#e8cf95" stroke-width="1.2" fill="none"/>
+            <g transform="rotate(-8 190 210)">
+              <rect x="174" y="196" width="32" height="40" rx="4" fill="#f5efe3"/>
+              <circle cx="190" cy="203" r="2.4" fill="#5a1424"/>
+              <text x="190" y="227" text-anchor="middle" class="gift__tag-text">J</text>
+            </g>
+          </g>
+          <g class="gift__lid" id="lid">
+            <rect x="30" y="96" width="200" height="34" rx="5" fill="url(#g-lid)"/>
+            <rect x="30" y="96" width="200" height="34" rx="5" fill="url(#p-damask)"/>
+            <rect x="30" y="124" width="200" height="6" fill="#000" opacity=".18"/>
+            <rect x="118" y="96" width="24" height="34" fill="url(#g-gold)"/>
+            <path d="M130,96 C104,58 66,62 80,88 C88,102 116,100 130,96 Z" fill="url(#g-gold)"/>
+            <path d="M130,96 C156,58 194,62 180,88 C172,102 144,100 130,96 Z" fill="url(#g-gold)"/>
+            <path d="M130,96 C112,78 92,76 90,86" stroke="#9c7637" stroke-width="1.6" fill="none" opacity=".6"/>
+            <path d="M130,96 C148,78 168,76 170,86" stroke="#9c7637" stroke-width="1.6" fill="none" opacity=".6"/>
+            <path d="M124,100 L104,138 L114,134 L118,144 Z" fill="#c9a35c"/>
+            <path d="M136,100 L156,138 L146,134 L142,144 Z" fill="#c9a35c"/>
+            <ellipse cx="130" cy="96" rx="13" ry="10" fill="url(#g-gold)"/>
+            <ellipse cx="126" cy="93" rx="4" ry="2.4" fill="#fff" opacity=".5"/>
+          </g>
+        </svg>
+      </button>
+
+      <p class="intro__hint">Toca el regalo para abrirlo</p>
+      <label class="switch">
+        <input type="checkbox" id="openWithMusic" checked>
+        <span class="switch__track" aria-hidden="true"><span class="switch__thumb"></span></span>
+        <span class="switch__label">Abrir con música</span>
+      </label>
+    </div>
+  </section>
+
+  <!-- ===== 2. La experiencia ===== -->
+  <main id="experience" class="experience" aria-hidden="true">
+
+    <!-- La tradición: torta y vino -->
+    <section id="escena" class="scene">
+      <div class="scene__spot" aria-hidden="true"></div>
+      <header class="scene__head">
+        <p class="eyebrow">Una tradición de familia</p>
+        <h2 class="scene__title"><span class="script">Para ti, <span data-trato-lower>tío</span> <span data-name>Jadiel</span></span></h2>
+        <p class="scene__lede">Una torta de chocolate y una buena botella de vino: así celebramos en casa.</p>
+      </header>
+
+      <div class="tableau" id="tableau">
+        <div class="tableau__floor" aria-hidden="true"></div>
+        <button class="cake" id="cake" type="button" aria-label="Soplar la vela de la torta">
+          <svg class="cake__svg" viewBox="0 0 320 312" aria-hidden="true">
+  <ellipse cx="160" cy="300" rx="118" ry="9" fill="#000" opacity=".45" filter="url(#f-soft)"/>
+  <path d="M146,268 L174,268 L181,296 L139,296 Z" fill="url(#g-stem)"/>
+  <ellipse cx="160" cy="298" rx="46" ry="8" fill="url(#g-gold)"/>
+  <ellipse cx="160" cy="297" rx="40" ry="5.5" fill="url(#g-plate)"/>
+  <ellipse cx="160" cy="240" rx="148" ry="31" fill="url(#g-gold)"/>
+  <ellipse cx="160" cy="236" rx="142" ry="27" fill="url(#g-plate)"/>
+  <ellipse cx="160" cy="236" rx="126" ry="21" fill="none" stroke="#c9a35c" stroke-width=".8" opacity=".55"/>
+  <path d="M52,140 L52,228 A108,24 0 0 0 268,228 L268,140 Z" fill="url(#g-cake)"/>
+  <path d="M52,214 A108,24 0 0 0 268,214" fill="none" stroke="#7a4a30" stroke-width="1" opacity=".35"/>
+  <path d="M51,140 L51,144.0 L52,144.0 L53,147.3 L54,148.6 L55,149.6 L56,150.5 L57,151.2 L58,151.9 L59,152.5 L59.5,152.8 C59.5,165.8 59.7,170.7 64.0,170.7 C68.3,170.7 68.5,165.8 68.5,156.7 L69,156.9 L70,157.3 L71,157.6 L72,157.9 L73,158.2 L74,158.5 L75,158.8 L76.0,159.1 C76.0,178.8 76.3,187.9 82.0,187.9 C87.7,187.9 88.0,178.8 88.0,161.9 L89,162.1 L90,162.3 L91,162.5 L92,162.6 L93,162.8 L94,163.0 L95,163.2 L96.0,163.3 C96.0,176.7 96.3,183.0 102.0,183.0 C107.7,183.0 108.0,176.7 108.0,165.0 L109,165.2 L110,165.3 L111,165.4 L112,165.5 L113,165.6 L114,165.7 L115,165.8 L116,165.9 L117.0,166.0 C117.0,180.0 117.3,187.0 123.0,187.0 C128.7,187.0 129.0,180.0 129.0,167.0 L130,167.1 L131,167.1 L132,167.2 L133,167.2 L134,167.3 L135,167.3 L136,167.4 L137,167.4 L138,167.5 L139,167.5 L140,167.6 L141,167.6 L141.5,167.6 C141.5,175.1 141.7,178.9 146.0,178.9 C150.3,178.9 150.5,175.1 150.5,167.9 L151,167.9 L152,167.9 L153,167.9 L154,168.0 L155,168.0 L156,168.0 L157,168.0 L158,168.0 L159,168.0 L160,168.0 L161,168.0 L162,168.0 L163,168.0 L164,168.0 L165,168.0 L165.5,168.0 C165.5,176.4 165.7,181.0 170.0,181.0 C174.3,181.0 174.5,176.4 174.5,167.8 L175,167.8 L176,167.7 L177,167.7 L178,167.7 L179,167.6 L180,167.6 L181,167.5 L182,167.5 L183,167.4 L184,167.4 L185,167.3 L186,167.3 L187,167.2 L188,167.2 L189,167.1 L190.0,167.1 C190.0,181.4 190.3,189.1 196.0,189.1 C201.7,189.1 202.0,181.4 202.0,166.1 L203,166.0 L204,165.9 L205,165.8 L206,165.7 L207,165.6 L208,165.5 L209,165.4 L210,165.3 L211.0,165.2 C211.0,184.7 211.3,195.2 217.0,195.2 C222.7,195.2 223.0,184.7 223.0,163.5 L224,163.3 L225,163.2 L226,163.0 L227,162.8 L228,162.6 L229,162.5 L230,162.3 L231,162.1 L232.0,161.9 C232.0,174.9 232.3,181.9 238.0,181.9 C243.7,181.9 244.0,174.9 244.0,159.1 L245,158.8 L246,158.5 L247,158.2 L248,157.9 L249,157.6 L250,157.3 L251,156.9 L251.5,156.7 C251.5,164.5 251.7,168.7 256.0,168.7 C260.3,168.7 260.5,164.5 260.5,152.8 L261,152.5 L262,151.9 L263,151.2 L264,150.5 L265,149.6 L266,148.6 L267,147.3 L268,144.0 L269,144.0 L269,140 A109,24 0 0 0 51,140 Z" fill="url(#g-ganache)"/>
+  <ellipse cx="160" cy="140" rx="102" ry="20" fill="url(#g-top)"/>
+  <ellipse cx="136" cy="134" rx="56" ry="7" fill="#fff" opacity=".07"/>
+  <ellipse cx="80.0" cy="182.6" rx="1.4" ry="2.4" fill="#fff" opacity=".22"/><ellipse cx="100.0" cy="178.2" rx="1.4" ry="2.4" fill="#fff" opacity=".22"/><ellipse cx="121.0" cy="182.5" rx="1.4" ry="2.4" fill="#fff" opacity=".22"/><ellipse cx="194.0" cy="184.6" rx="1.4" ry="2.4" fill="#fff" opacity=".22"/><ellipse cx="215.0" cy="190.4" rx="1.4" ry="2.4" fill="#fff" opacity=".22"/><ellipse cx="236.0" cy="176.6" rx="1.4" ry="2.4" fill="#fff" opacity=".22"/>
+  <g class="cake__writing"><text x="160" y="216" text-anchor="middle" class="cake__name" fill="url(#g-gold)" data-name>Jadiel</text></g>
+  <g fill="url(#g-gold)"><circle cx="266.8" cy="230.4" r="4.3"/><circle cx="265.2" cy="233.3" r="4.3"/><circle cx="262.2" cy="236.1" r="4.3"/><circle cx="257.6" cy="238.8" r="4.3"/><circle cx="251.6" cy="241.4" r="4.3"/><circle cx="244.2" cy="243.8" r="4.3"/><circle cx="235.7" cy="246.0" r="4.3"/><circle cx="226.0" cy="247.9" r="4.3"/><circle cx="215.4" cy="249.5" r="4.3"/><circle cx="203.9" cy="250.9" r="4.3"/><circle cx="191.8" cy="251.9" r="4.3"/><circle cx="179.3" cy="252.6" r="4.3"/><circle cx="166.5" cy="253.0" r="4.3"/><circle cx="153.5" cy="253.0" r="4.3"/><circle cx="140.7" cy="252.6" r="4.3"/><circle cx="128.2" cy="251.9" r="4.3"/><circle cx="116.1" cy="250.9" r="4.3"/><circle cx="104.6" cy="249.5" r="4.3"/><circle cx="94.0" cy="247.9" r="4.3"/><circle cx="84.3" cy="246.0" r="4.3"/><circle cx="75.8" cy="243.8" r="4.3"/><circle cx="68.4" cy="241.4" r="4.3"/><circle cx="62.4" cy="238.8" r="4.3"/><circle cx="57.8" cy="236.1" r="4.3"/><circle cx="54.8" cy="233.3" r="4.3"/><circle cx="53.2" cy="230.4" r="4.3"/></g>
+  <g transform="translate(182.1 124.5)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-8" r="5.4" fill="url(#g-berry)"/><circle cx="-1.8" cy="-10" r="1.4" fill="#fff" opacity=".6"/><path d="M0,-13 q2,-4 5,-4" stroke="#2f5a45" stroke-width="1.4" fill="none"/></g><g transform="translate(137.6 124.6)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-6.5" r="2.2" fill="url(#g-gold)"/></g><g transform="translate(220.7 128.7)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M-3.5,-6 L0,-13 L3.5,-6 L0,-4 Z" fill="url(#g-gold)"/></g><g transform="translate(99.1 128.7)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M-3.5,-6 L0,-13 L3.5,-6 L0,-4 Z" fill="url(#g-gold)"/></g><g transform="translate(243.0 135.8)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-6.5" r="2.2" fill="url(#g-gold)"/></g><g transform="translate(76.9 135.9)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-8" r="5.4" fill="url(#g-berry)"/><circle cx="-1.8" cy="-10" r="1.4" fill="#fff" opacity=".6"/><path d="M0,-13 q2,-4 5,-4" stroke="#2f5a45" stroke-width="1.4" fill="none"/></g>
+  <g class="candle">
+    <rect x="154" y="80" width="12" height="62" rx="3" fill="url(#g-candle)"/>
+    <path d="M154,90 l12,-6 M154,102 l12,-6 M154,114 l12,-6 M154,126 l12,-6 M154,138 l12,-6" stroke="#c9a35c" stroke-width="2.2" opacity=".85" clip-path="url(#c-candle)"/>
+    <path d="M160,80 v-8" stroke="#2a1a12" stroke-width="1.8" stroke-linecap="round"/>
+    <g class="flame" id="flame">
+      <circle cx="160" cy="58" r="30" fill="url(#g-glow)" class="flame__glow"/>
+      <path class="flame__outer" d="M160,36 C171,50 170,64 160,72 C150,64 149,50 160,36 Z" fill="url(#g-flame)"/>
+      <path class="flame__inner" d="M160,54 C164,60 164,67 160,71 C156,67 156,60 160,54 Z" fill="#fff8e6"/>
+    </g>
+    <g class="smoke" id="smoke" fill="none" stroke="#d8d4cc" stroke-linecap="round">
+      <path d="M160,70 C150,58 170,48 158,36 C148,26 166,16 158,4"/>
+      <path d="M161,70 C170,60 152,50 164,40 C172,32 156,22 166,10"/>
+    </g>
+  </g>
+  <g transform="translate(243.1 144.1)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-8" r="5.4" fill="url(#g-berry)"/><circle cx="-1.8" cy="-10" r="1.4" fill="#fff" opacity=".6"/><path d="M0,-13 q2,-4 5,-4" stroke="#2f5a45" stroke-width="1.4" fill="none"/></g><g transform="translate(77.0 144.2)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-6.5" r="2.2" fill="url(#g-gold)"/></g><g transform="translate(220.9 151.3)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M-3.5,-6 L0,-13 L3.5,-6 L0,-4 Z" fill="url(#g-gold)"/></g><g transform="translate(99.3 151.3)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><path d="M-3.5,-6 L0,-13 L3.5,-6 L0,-4 Z" fill="url(#g-gold)"/></g><g transform="translate(182.4 155.4)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-6.5" r="2.2" fill="url(#g-gold)"/></g><g transform="translate(137.9 155.5)"><ellipse rx="9" ry="6.5" fill="#2a130b"/><ellipse cy="-1.5" rx="7.5" ry="5.5" fill="url(#g-rosette)"/><path d="M-5,-2 q5,-5 10,0 M-3,-4 q3,-3 6,0" stroke="#7a4a30" stroke-width="1.2" fill="none" stroke-linecap="round"/><circle cy="-8" r="5.4" fill="url(#g-berry)"/><circle cx="-1.8" cy="-10" r="1.4" fill="#fff" opacity=".6"/><path d="M0,-13 q2,-4 5,-4" stroke="#2f5a45" stroke-width="1.4" fill="none"/></g>
+</svg>
+        </button>
+        <div class="bottle-wrap">
+          <button class="bottle" id="bottle" type="button" aria-label="Servir el vino">
+            <svg class="bottle__svg" viewBox="0 0 100 340" aria-hidden="true">
+              <rect class="bottle__cork" x="43" y="6" width="14" height="16" rx="2" fill="#c49a6c"/>
+              <path d="M40,18 L60,18 L60,100 C60,130 86,138 86,172 L86,322 Q86,334 74,334 L26,334 Q14,334 14,322 L14,172 C14,138 40,130 40,100 Z" fill="url(#g-bottle)"/>
+              <path class="bottle__foil" d="M39,16 L61,16 L61,74 C61,76 39,76 39,74 Z" fill="url(#g-foil)"/>
+              <rect class="bottle__foil" x="39" y="66" width="22" height="3" fill="url(#g-gold)"/>
+              <rect x="39" y="16" width="22" height="3" rx="1" fill="#2a0811" class="bottle__foil"/>
+              <path d="M22,176 C22,150 36,140 42,126" stroke="#fff" stroke-width="2.5" fill="none" opacity=".18" stroke-linecap="round"/>
+              <rect x="24" y="176" width="4" height="140" rx="2" fill="#fff" opacity=".13"/>
+              <rect x="20" y="196" width="60" height="96" rx="3" fill="url(#g-label)"/>
+              <rect x="24" y="200" width="52" height="88" rx="2" fill="none" stroke="#c9a35c" stroke-width=".9"/>
+              <text x="50" y="244" text-anchor="middle" class="bottle__mono" fill="#5a1424">J</text>
+              <text x="50" y="258" text-anchor="middle" class="bottle__small">GRAN RESERVA</text>
+              <line x1="34" y1="264" x2="66" y2="264" stroke="#c9a35c" stroke-width=".6"/>
+              <text x="50" y="274" text-anchor="middle" class="bottle__tiny" fill="#2f5a45">Tinto · <tspan data-year>2026</tspan></text>
+              <rect x="38" y="118" width="24" height="10" rx="1.5" fill="url(#g-gold)"/>
+            </svg>
+          </button>
+        </div>
+        <div class="wineglass" id="wineglass">
+          <svg class="wineglass__svg" viewBox="0 0 120 232" aria-hidden="true">
+            <g clip-path="url(#c-bowl)">
+              <g class="wineglass__fill" id="wineFill">
+                <rect x="0" y="64" width="120" height="70" fill="url(#g-wine)"/>
+                <ellipse cx="60" cy="64" rx="39" ry="4.5" fill="#b33a55"/>
+              </g>
+            </g>
+            <path d="M22,22 C18,72 26,114 60,120 C94,114 102,72 98,22 Z" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.55)" stroke-width="1.6"/>
+            <ellipse cx="60" cy="22" rx="38" ry="4" fill="none" stroke="rgba(255,255,255,.6)" stroke-width="1.4"/>
+            <path d="M32,34 C29,62 33,88 46,104" stroke="#fff" stroke-width="3" fill="none" opacity=".35" stroke-linecap="round"/>
+            <path d="M58,119 L58,212 L62,212 L62,119" fill="rgba(255,255,255,.35)"/>
+            <ellipse cx="60" cy="214" rx="34" ry="7" fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.55)" stroke-width="1.4"/>
+          </svg>
+        </div>
+      </div>
+
+      <p class="wish" id="wish" aria-live="polite"></p>
+
+      <div class="hints">
+        <button class="chip" type="button" id="hintCandle">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3c2 2.5 2 4.5 0 6-2-1.5-2-3.5 0-6z" fill="currentColor"/><rect x="9.5" y="11" width="5" height="10" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+          <span>Sopla la vela</span>
+        </button>
+        <button class="chip" type="button" id="hintWine">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10c0 6-1.5 9-5 9.5C8.5 12 7 9 7 3z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M12 12.5V20M8 21h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Sirve el vino</span>
+        </button>
+      </div>
+
+      <a class="btn btn--ghost scene__next" href="#saludo">
+        <span>Continuar</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </section>
+
+    <!-- Felicitación -->
+    <section id="saludo" class="greeting">
+      <div class="greeting__inner reveal">
+        <p class="eyebrow">Hoy celebramos a alguien muy especial</p>
+        <h2 class="greeting__title"><span class="script">Feliz cumpleaños</span></h2>
+        <button class="greeting__name" id="nameBtn" type="button" aria-label="Lanzar destellos"><span data-trato>Tío</span> <span data-name>Jadiel</span></button>
+        <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>
+
+        <div class="date">
+          <button class="date__chip glass" id="dateBtn" type="button" aria-label="Cambiar la fecha">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2.5" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+            <span class="date__text" id="dateText">—</span>
+            <svg class="date__edit" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16v4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/></svg>
+          </button>
+          <input type="date" id="dateInput" class="date__input" aria-label="Fecha del cumpleaños">
+          <p class="date__badge" id="dateBadge"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Carta -->
+    <section id="carta" class="letter-sec">
+      <article class="letter glass reveal" id="letter">
+        <button class="seal" id="seal" type="button" aria-label="Abrir la carta" aria-expanded="false">
+          <span class="seal__half seal__half--l" aria-hidden="true"></span>
+          <span class="seal__half seal__half--r" aria-hidden="true"></span>
+          <span class="seal__mono" aria-hidden="true">J</span>
+        </button>
+        <div class="letter__closed">
+          <p class="eyebrow">Una carta para ti</p>
+          <p class="letter__invite">Rompe el sello para leerla</p>
+        </div>
+        <div class="letter__body" id="letterBody">
+          <div class="letter__content">
+            <p class="letter__greet" id="letterGreet"></p>
+            <div id="letterParas"></div>
+            <p class="letter__close" id="letterClose"></p>
+            <p class="letter__sign script" id="letterSign"></p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!-- Recuerdos -->
+    <section id="recuerdos" class="memories">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Momentos que guardamos</p>
+        <h2 class="sec-title">Recuerdos <em>contigo</em></h2>
+      </header>
+      <div class="carousel reveal" id="carousel" tabindex="0" aria-roledescription="carrusel" aria-label="Fotografías">
+        <div class="carousel__track" id="track"></div>
+        <button class="carousel__nav carousel__nav--prev glass" id="prev" type="button" aria-label="Foto anterior">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="carousel__nav carousel__nav--next glass" id="next" type="button" aria-label="Foto siguiente">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+      <p class="carousel__caption script" id="caption" aria-live="polite"></p>
+      <div class="carousel__dots" id="dots" role="tablist" aria-label="Elegir foto"></div>
+    </section>
+
+    <!-- Deseos -->
+    <section id="deseos" class="wishes">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Para este nuevo año</p>
+        <h2 class="sec-title">Lo que te <em>deseamos</em></h2>
+      </header>
+      <div class="wishes__grid" id="wishGrid"></div>
+    </section>
+
+    <!-- Brindis -->
+    <section id="brindis" class="toast">
+      <div class="toast__inner glass reveal">
+        <p class="eyebrow">El momento final</p>
+        <h2 class="sec-title">Un brindis <em>por ti</em></h2>
+        <div class="toast__glasses" id="glasses" aria-hidden="true">
+          <svg class="toast__glass toast__glass--l" viewBox="0 0 120 232"><use href="#sym-glass-full"/></svg>
+          <svg class="toast__glass toast__glass--r" viewBox="0 0 120 232"><use href="#sym-glass-full"/></svg>
+        </div>
+        <button class="btn btn--gold" id="cheersBtn" type="button">
+          <span>¡Brindemos!</span>
+        </button>
+        <p class="toast__msg script" id="cheersMsg" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="ornament" aria-hidden="true"><span></span><i></i><span></span></div>
+      <p class="footer__from">Con todo el cariño de <span class="script" data-from>tus sobrinos</span></p>
+      <p class="footer__year"><span data-year>2026</span></p>
+    </footer>
+  </main>
+
+  <!-- ===== Reproductor ===== -->
+  <aside class="player glass" id="player" aria-label="Reproductor de música">
+    <button class="player__btn" id="playBtn" type="button" aria-label="Reproducir música" aria-pressed="false">
+      <span class="player__disc" aria-hidden="true"></span>
+      <svg class="player__icon player__icon--play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5z" fill="currentColor"/></svg>
+      <svg class="player__icon player__icon--pause" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5.5" width="4" height="13" rx="1.2" fill="currentColor"/><rect x="13.5" y="5.5" width="4" height="13" rx="1.2" fill="currentColor"/></svg>
+    </button>
+    <div class="player__meta">
+      <span class="player__title" id="trackTitle">Nuestra canción</span>
+      <span class="player__status" id="trackStatus">Toca para escuchar</span>
+    </div>
+    <div class="player__eq" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <p class="player__tip" id="playerTip">♪ ¿Un poco de música?</p>
+  </aside>
+
+  <div class="stream" id="stream" aria-hidden="true"></div>
+
+  <noscript><p class="noscript">Activa JavaScript para abrir tu regalo.</p></noscript>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
